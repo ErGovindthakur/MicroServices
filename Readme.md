@@ -59,3 +59,17 @@
 1) Docker 
 2) Kubernates
 3) TypeScript
+
+
+## Data Management challenge in Microservices
+
+## Steps to manage data in microservices
+
+1) If we are building any application using microservices have to do the below steps multiple time when ever we need to implement the new service in your application.
+
+2. But Monolithic requires it only one time
+
+(Route) -> (Middleware) -> (Business Logics) -> (Database Access)
+
+Note-1) -> In microservices each service requires a single database
+
